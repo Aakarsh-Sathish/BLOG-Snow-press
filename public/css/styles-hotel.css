@@ -1,0 +1,396 @@
+* {
+    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  max-height: 100%;
+  }
+  
+  body {
+    font-family: "Balsamiq Sans", cursive;
+    color: black;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Lato", sans-serif;
+  }
+  
+  .btn-dark {
+    padding: 0.5rem 1.5rem;
+    border: 1px solid white;
+    color: white;
+  }
+  
+  .btn-black {
+    padding: 0.9rem 1.5rem;
+    background-color: black;
+    color: white;
+  }
+  
+  .btn:hover {
+    opacity: 0.7;
+  }
+  
+  .container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 2rem;
+    overflow: hidden;
+  }
+  
+  .content {
+    width: 100%;
+    height: 100vh;
+    background: url("/restaurant/imgs/soup-served-on-bowl-1907227.jpg") no-repeat center center/cover;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .text-body {
+    color: white;
+    position: absolute;
+    top: 20%;
+    display: inline-block;
+    padding: 3rem;
+    text-align: center;
+    left: 50%;
+    width: 50%;
+  }
+  
+  .logo {
+    color: white;
+    font-weight: bolder;
+    font-size: 3rem;
+    padding: 20px;
+    margin-left: 5%;
+    display: inline-block;
+  }
+  
+  .text-body h1 {
+    font-weight: bolder;
+    font-size: 3rem;
+  }
+  
+  .text-body p {
+    font-size: 1rem;
+    margin-top: 1rem;
+    padding: 0 6.5rem;
+    line-height: 1.4rem;
+    font-weight: bold;
+    padding-bottom: 2.3rem;
+  }
+  
+  .text-body a {
+    text-decoration: none;
+  
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .middle {
+    margin-top: 6rem;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .images img {
+    width: 70%;
+    height: 70%;
+    box-shadow: -9px 8px 5px grey;
+  }
+  
+  .middle .images {
+    justify-content: end;
+    text-align: end;
+    box-shadow: -9px 8px 5px grey;
+  }
+  
+  .middle .mid-content {
+    margin-right: 40%;
+    margin-left: 10%;
+    justify-content: flex-start;
+  }
+  
+  .middle .mid-content h2 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    line-height: 2.4rem;
+  }
+  
+  .mid-content .mid-content p {
+    font-size: 1.3rem;
+    line-height: 1.4rem;
+    font-weight: normal;
+  }
+  
+  .middle .contleft {
+    justify-content: flex-end;
+    margin-right: 10%;
+    margin-left: 40%;
+  }
+  
+  .middle .imgright {
+    justify-content: flex-start;
+    text-align: left;
+    box-shadow: 9px 3px 5px grey;
+  }
+  
+  /* menu  */
+  
+  .menu {
+    margin-top: 6rem;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: black;
+    color: white;
+    padding: 8rem 0 5rem 0;
+  }
+  
+  .menu-list {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    line-height: 2rem;
+    margin: 2rem 0 2rem 0;
+  }
+  
+  .food {
+    padding-right: 12%;
+  }
+  
+  .menu-list {
+    padding-bottom: 14px;
+    border-bottom: 0.43px solid white;
+  }
+  
+  .menu-list img {
+    width: 80%;
+    height: 70%;
+  }
+  
+  .menu-list p {
+    line-height: 1.6rem;
+    margin-top: 1rem;
+  }
+  
+  .explain {
+    padding: 15%;
+    text-align: left;
+  }
+  
+  .explain h1 {
+    font-size: 2.8rem;
+  }
+  
+  .explain p {
+    font-size: medium;
+    line-height: 1.8rem;
+    margin-top: 1.5rem;
+  }
+  
+  .family {
+    overflow: hidden;
+    /* height: 90vh; */
+  }
+  
+  
+  
+  .family .middle .images {
+    height: 100%;
+  }
+  
+  .family .middle {
+    margin-top: 2rem;
+  }
+  
+  .family .middle .mid-content {
+    align-self: center;
+    text-align: left;
+    justify-content: center;
+    margin-bottom: 50%;
+  }
+  
+  .family .middle .mid-content h2 {
+    font-size: 2.5rem;
+  }
+  
+  .family .middle .mid-content p {
+    margin-bottom: 1.5rem;
+    line-height: 1.5rem;
+  }
+  
+  .op {
+    opacity: 0.5;
+    line-height: 2rem;
+  }
+  
+  .fam {
+    margin-top: 28%;
+    line-height: 2rem;
+  }
+  
+  .overlay {
+    color: white;
+    background: #333;
+    padding: 2rem;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .overlay:before {
+    content: "";
+    background: url("/restaurant/imgs/bowl-of-vegetable-salad-and-fruits-936611.jpg") no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+  }
+  
+  .final {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    height: 17vh;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .foot {
+    z-index: 2;
+  }
+  
+  .foot h1 {
+    font-size: 2.4rem;
+  }
+  
+  .foot a {
+    text-decoration: none;
+  
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .contact {
+    background: black;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5rem;
+    text-align: left;
+    padding: 5% 0 5% 0;
+    overflow: hidden;
+  }
+  
+  .contact>div:first-child {
+    text-align: center;
+  }
+  
+  
+  
+  
+  
+  @media only screen and (max-width: 600px) {
+    .img {
+      box-shadow: none;
+    }
+  
+    .text-body {
+      color: white;
+      position: initial;
+      top: 0%;
+      display: block;
+      padding: 1rem;
+      text-align: center;
+      left: 50%;
+      width: 100%;
+    }
+  
+    .text-body p {
+      font-size: 0.8rem;
+      margin-top: 1rem;
+      padding: 0 6.5rem;
+      line-height: 1.4rem;
+      /* font-weight: bold; */
+      padding-bottom: 2.3rem;
+    }
+  
+    .logo {
+      color: white;
+      font-weight: bolder;
+      font-size: 2rem;
+      padding: 20px;
+      margin-left: 0%;
+      /* display: inline-block; */
+      display: block;
+      text-align: center;
+    }
+  
+    .middle {
+      display: block;
+    }
+  
+    .images img {
+      box-shadow: none;
+    }
+  
+    .middle .images {
+      text-align: center;
+      box-shadow: none;
+    }
+  
+    .middle .mid-content {
+      margin: 3% 7%;
+    }
+  
+    .food {
+      padding: 0%;
+    }
+  
+    .menu {
+      display: block;
+    }
+  
+    .menu-list {
+      display: block;
+      align-content: center;
+      text-align: center;
+    }
+  
+    .family {
+      text-align: center;
+    }
+  
+    .family .middle .mid-content {
+      text-align: center;
+      margin-bottom: 2%;
+    }
+  
+    .family .middle .mid-content h3 {
+      margin-top: 2rem;
+    }
+  }

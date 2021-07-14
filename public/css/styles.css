@@ -1,0 +1,330 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  line-height: 1.5rem;
+  background: #f3f3f3;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+  /* wont stretch */
+}
+
+.front-page,
+.front-page1 {
+  position: relative;
+}
+
+.front-page img {
+  height: 95vh;
+  overflow: hidden;
+  z-index: -1;
+}
+.front-page1 img {
+  height: 80vh;
+  overflow: hidden;
+  z-index: -1;
+}
+.header1 .navbar {
+  color: white;
+  z-index: 2;
+  position: absolute;
+  padding: 3% 7%;
+  display: grid;
+  grid-template-columns: 6fr 2fr;
+  padding: 1rem;
+  align-items: center;
+  top: 1rem;
+  bottom: 80vh;
+}
+
+.navbar {
+  color: white;
+  z-index: 2;
+  position: absolute;
+  padding: 3% 7%;
+  display: grid;
+  grid-template-columns: 6fr 2fr;
+  padding: 1rem;
+  align-items: center;
+  top: 1rem;
+  bottom: 80vh;
+}
+
+.head {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.head h1 {
+  margin-left: 4.5rem;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.navlists {
+  justify-self: right;
+  display: flex;
+}
+
+.lists li {
+  padding: 1.4rem 0.75rem;
+  font-weight: bold;
+}
+
+.lists a {
+  color: white;
+}
+
+.current {
+  background-color: #c72727;
+}
+
+.lists li:hover {
+  background-color: tomato;
+}
+
+.social-media {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  text-align: center;
+  cursor: pointer;
+  background-color: #333;
+  color: white;
+}
+
+.instagram:hover {
+  background-color: violet;
+}
+
+.twitter:hover {
+  background-color: #abf0e9;
+}
+
+.youtube:hover {
+  background-color: #d63447;
+}
+
+.facebook:hover {
+  background-color: #162447;
+}
+
+.header,
+.header1 {
+  margin-bottom: 4rem;
+}
+
+/* Story So Far */
+
+.LIFE {
+  padding-top: 10rem;
+  text-align: center;
+  opacity: 0.7;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-decoration-color: red;
+}
+
+.container {
+  grid-template-columns: auto auto auto auto;
+  display: grid;
+  padding: 5rem 5rem;
+  grid-gap: 2rem;
+}
+
+.content h2,
+h4 {
+  padding: 2rem;
+}
+
+.content h2 {
+  padding: 1.5rem;
+  text-align: center;
+  line-height: 2rem;
+}
+
+.content img {
+  width: 100%;
+  height: 12rem;
+}
+
+.content:nth-child(odd) {
+  background-color: #ececec;
+}
+
+.content:nth-child(even) {
+  background-color: silver;
+}
+
+.button {
+  padding: 0.8rem 1.2rem;
+
+  background-color: red;
+  color: white;
+  text-align: center;
+  opacity: 0.9;
+}
+
+.button:hover {
+  background-color: black;
+  color: white;
+  opacity: 1;
+}
+
+.btn {
+  text-align: center;
+}
+
+.fiction {
+  margin: 5rem 1.5rem;
+}
+
+.fiction-img {
+  position: relative;
+  overflow: hidden;
+}
+
+.fiction-tell {
+  position: absolute;
+  bottom: 30vh;
+  margin-right: 60%;
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+
+.fiction-img img {
+  height: 95vh;
+  width: 100%;
+}
+
+.fiction-tell h1 {
+  color: #d63447;
+  font-size: 2.6rem;
+  line-height: 3rem;
+  text-align: center;
+}
+
+.fiction-tell p {
+  line-height: 1.4rem;
+  font-size: 1.3rem;
+  margin-top: 2rem;
+  color: whitesmoke;
+  text-align: center;
+  margin-bottom: 3rem;
+  font-weight: 700;
+}
+
+.btx {
+  text-align: center;
+}
+
+.but {
+  color: white;
+  background-color: #d63447;
+  padding: 1rem 2rem;
+  text-decoration: none;
+}
+
+.but:hover {
+  background-color: black;
+}
+
+.foot {
+  margin-top: 5rem;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 3rem;
+}
+
+.foot h4 {
+  letter-spacing: 1rem;
+}
+
+.foot img {
+  width: 6rem;
+  height: 6rem;
+}
+
+.foot-social {
+  margin: 1rem;
+}
+
+.blogs {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  padding: 5rem 3rem 5rem 4rem;
+  grid-gap: 2rem;
+}
+
+.myblog .blogs h1 {
+  font-size: 2.4rem;
+
+  line-height: 2.9rem;
+}
+
+.blogs h3 {
+  font-size: 1.4rem;
+  margin-top: 1.4rem;
+  line-height: 1.8rem;
+}
+
+.blogs p {
+  line-height: 2rem;
+}
+.myblog {
+  background: gainsboro;
+}
+.myblog h1 {
+  line-height: 3rem;
+  font-size: 3rem;
+  margin-top: 3rem;
+}
+
+.headblogs {
+  padding: 1rem 30%;
+}
+
+.compose-container {
+  padding: 5rem;
+}
+
+.compose-container input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.compose-container textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+
+.btn-primary {
+  margin-top: 4rem;
+  padding: 1rem 2rem;
+  background-color: cornflowerblue;
+  color: white;
+  cursor: pointer;
+}
